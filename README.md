@@ -78,6 +78,31 @@ Input: [1 1], Predicted: [[0.1356]]
 
 Les valeurs prédites devraient être proches des cibles réelles (0 ou 1) après un entraînement suffisant.
 
+
+## Jeu de la Vie
+
+Cette section contient deux implémentations du Jeu de la Vie de Conway.
+
+### Fichiers
+
+- `game_of_life.cpp`: Implémentation en C++.
+- `game_of_life.py`: Implémentation en Python.
+
+### Compilation et Exécution
+
+#### C++
+
+```bash
+g++ game_of_life.cpp -std=c++11 -pthread -O2 -o game_of_life
+./game_of_life
+```
+
+#### Python
+
+```bash
+python3 game_of_life.py
+```
+
 ## Licence
 
 Ce projet est sous licence MIT - voir le fichier `LICENSE` pour plus de détails.
